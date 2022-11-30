@@ -1,92 +1,104 @@
-body{
-    background-color:#f4f4f4;
-    color:#555;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:16px;
-    line-height:1.6em;
-    margin:0;
-}
+<!DOCTYPE html>
+<html lang="en"><!--  -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheat Sheet</title>
+    <link rel="stylesheet" type="text/css"href="css/style.css">
+</head>
+<body>
+    <div class= "container">
+        <div class="box-1">
+            <h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil aut facilis amet harum earum consequuntur pariatur minus a repudiandae in nisi totam cupiditate rem eaque dolorem tempora, officia ad sed?</p>
+        </div>
 
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-}
+        <div class="box-2">
+            <h1>Goodbye World</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil aut facilis amet harum earum consequuntur pariatur minus a repudiandae in nisi totam cupiditate rem eaque dolorem tempora, officia ad sed?</p>
+            <a class="button" href="">Read More</a>
+        </div>
 
-#main-header{
-    background-color:coral;
-    color:#fff;
-}
+        <div class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Category1</a></li>
+                <li><a href="#">Category2</a></li>
+                <li><a href="#">Category3</a></li>
+                <li><a href="#">Category4</a></li>
+                <li><a href="test.html">Category5</a></li>
 
-#navbar{
-    background-color:#333;
-    color:#fff;
-}
+            </ul>
 
-#navbar ul{
-    padding:0;
-    list-style: none;
-}
+        </div>
+        <form class="my-form">
+           <div class="form-group">
+                <label>Name: </label>
+                <input type="text" name="name">
+           </div>
+           <div class="form-group">
+                <label>Email: </label>
+                <input type="text" name="email">
+           </div> 
+           <div>
+            <div class="form-group">
+                <label>Message: </label>
+                <textarea name="message"></textarea>
+            </div>
+            <input class="button" type="submit" value="Submit" name="">
+           </div>
+        </form>
 
-#navbar li{
-    display:inline;
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione deleniti officiis qui quos, libero natus voluptate, ipsam distinctio sint mollitia ab dolorum id? Rem sint animi ratione deserunt eos!</p>
+        </div>
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione deleniti officiis qui quos, libero natus voluptate, ipsam distinctio sint mollitia ab dolorum id? Rem sint animi ratione deserunt eos!</p>
+        </div>
+         <div class="block">
+             <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione deleniti officiis qui quos, libero natus voluptate, ipsam distinctio sint mollitia ab dolorum id? Rem sint animi ratione deserunt eos!</p>
+         </div>
 
-}
+         <div>class="clr"</div>
 
-#navbar a{
-    color:#fff;
-    text-decoration: none;
-    font-size:18px;
-    padding-right:15px;
-}
+         <div id="main-block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione deleniti officiis qui quos, libero natus voluptate, ipsam distinctio sint mollitia ab dolorum id? Rem sint animi ratione deserunt eos!</p>
 
-#showcase{
-    background-image:url('../images/showcase.jpg');
-    background-position:center right;
-    min-height:300px;
-    margin-bottom:30px;
-    text-align: center;
-}
+         </div>
 
-#showcase h1{
-    color:#fff;
-    font-size:50px;
-    line-height: 1.6em;
-    padding-top:30px;
-}
+         <div id="sidebar">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione deleniti officiis qui quos, libero natus voluptate, ipsam distinctio sint mollitia ab dolorum id? Rem sint animi ratione deserunt eos!</p>
 
-#main{
-    float:left;
-    width:70%;
-    padding:0 30px;
-    box-sizing: border-box;
-}
+         </div>
 
-#sidebar{
-    float:right;
-    width:30%;
-    background: #333;
-    color:#fff;
-    padding:10px;
-    box-sizing: border-box;
-}
+         <div class="clr"></div>
 
-#main-footer{
-    background: #333;
-    color:#fff;
-    text-align: center;
-    padding:20px
-    margin-top:40px;
-}
+         <div class="p-box">
+            <h1>Hello</h1>
+            <h2>Goodbye</h2>
+         </div>
 
-@media(max-width:600px){
-    #main{
-        width:100%;
-        float:none;
-    }
+         <ul class="my-list">
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+         </ul>
 
-    #sidebar{
-        width:100%;
-        float:none;
-    }
-}
+    </div><!-- ./container -->
+
+    <a class="fix-me button" href="hello"></a>
+
+    <div style="margin-top:500px;"></div>"
+</body>>
+</html>
